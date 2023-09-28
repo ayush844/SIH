@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.page-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.page-heading{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+.page-heading h1{
+    font-size: 5rem;
+    text-transform: uppercase;
+        background: linear-gradient(45deg, #00bcd4, #e91e63);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            display: inline;
+}
+
+.carausel-container{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.language-section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 600px;
+    padding: 3rem;
+    margin-bottom: 50px;
+}
+
+
+.language-section .language-content{
+    width: 50%;
+    margin: 2rem;
+
+}
+
+.language-section .language-content h1{
+    text-transform: uppercase;
+    /* line-height: 2rem; */
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 50px;
+    background: linear-gradient(45deg, #ff5733, #ffcc29);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline;
+}
+
+.language-section .language-content p{
+    line-height: 1.5rem;
+    margin-top: 2rem;
+}
+
+
+.language-section .graph{
+    width: 40%;
+    height: 100%;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+    padding: 3rem;
+    margin-bottom: 10px;
+}
+
+.content-container .inner-content{
+    margin: 2rem;
+    margin-right: 4rem;
+}
+
+.content-container .inner-content h1{
+        text-transform: uppercase;
+            /* line-height: 2rem; */
+            font-size: 3rem;
+            margin-top: 3rem;
+            margin-bottom: 50px;
+            background: linear-gradient(45deg, #ff5733, #ffcc29);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            display: inline;
+}
+
+.content-container .inner-content p{
+    line-height: 1.5rem;
+    margin-top: 2rem;
+}
+
+
+
+.card-box{
+    display: flex;
+    flex-direction: row;
+    /* margin: 2rem; */
+    justify-content: space-around;
+    margin-right: 4rem;
+}

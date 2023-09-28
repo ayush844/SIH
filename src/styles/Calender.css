@@ -1,0 +1,38 @@
+#root{
+    width: 100vw;
+    padding: 3rem;
+    padding-top: 0;
+}
+
+body {
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    padding-right: 3rem;
+}
+
+.calender-body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.page-heading {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    /* background-color: rgba(12, 234, 265, 0.4); */
+}
+
+.page-heading h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #00bcd4, #e91e63);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline;
+}

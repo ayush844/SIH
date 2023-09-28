@@ -1,0 +1,45 @@
+.carausel{
+    width: 90%;
+    height: 600px;
+    background-color: aqua;
+}
+
+
+.carausel-inner{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carausel-inner .left{
+    flex: 5%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.carausel-inner .center {
+    flex: 90%;
+    height: 100%;
+}
+
+.carausel-inner .right{
+    flex: 5%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    cursor: pointer;
+}
